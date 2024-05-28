@@ -52,7 +52,7 @@ export interface IAccordionVerticalProps<TItemConfig extends IAccordionItemConfi
  * If you want to specify the index at which to render the item, pass a `priority` prop to the AccordionItem element.
  *
  * ```ts
- * import { IAccordionItemConfig } from "@alethio/ui/lib/control/accordion/IAccordionItemConfig";
+ * import { IAccordionItemConfig } from "@digiv3rse/ui/lib/control/accordion/IAccordionItemConfig";
  *
  * interface IItemData extends IAccordionItemConfig {
  *     foo: string;

@@ -61,8 +61,8 @@ export const createTheme: (palette: IPalette) => ITheme = (palette) => {
                 activeHover: BLUE_L5
             }
         },
-        toolbarAlethioIcon: DAWN_D5,
-        toolbarAlethioIconHover: BLUE,
+        toolbarDiGiIcon: DAWN_D5,
+        toolbarDiGiIconHover: BLUE,
         overlayBg: WHITE,
         overlayBorder: DAWN_D5,
         overlayToolbarBorder: DAWN,

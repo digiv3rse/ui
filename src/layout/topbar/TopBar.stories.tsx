@@ -10,7 +10,7 @@ import styled from "../../styled-components";
 import { Dropdown } from "../../control/dropdown/Dropdown";
 import { MobileMenuLayer } from "./MobileMenuLayer";
 import { MobileMenuItem } from "./MobileMenuItem";
-import { AlethioIcon } from "../../icon/AlethioIcon";
+import { DiGiIcon } from "../../icon/DiGiIcon";
 
 const Page = styled.div`
     flex: 1 1 auto;
@@ -48,7 +48,7 @@ storiesOf("layout/topbar/" + TopBar.displayName, module)
                     <Dropdown<void> renderMenu={(onSelectItem) =>
                         <MobileMenuLayer onRequestClose={() => onSelectItem()} open>
                             <MobileMenuItem title="Menu Item">
-                                <ToolbarIconButton Icon={AlethioIcon} />
+                                <ToolbarIconButton Icon={DiGiIcon} />
                             </MobileMenuItem>
                         </MobileMenuLayer>
                     }>{ ({requestToggle}) =>

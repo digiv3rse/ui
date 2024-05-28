@@ -1,4 +1,4 @@
-# @alethio/ui
+# @digiv3rse/ui
 
 React component library for Alethio apps.
 
@@ -11,15 +11,15 @@ React component library for Alethio apps.
 
 ## Installation
 
-1. `npm i @alethio/ui`
+1. `npm i @digiv3rse/ui`
 2. Copy the `public/css` and `public/fonts` folders into your root app folder and import the CSS files in your index.html.
 3. In your root App component, create a theme and pass it to styled-components provider:
 
 ```tsx
 import * as React from "react";
-import { ThemeProvider } from "@alethio/ui/lib/styled-components";
-import { createPalette } from "@alethio/ui/lib/theme/createPalette";
-import { createTheme } from "@alethio/ui/lib/theme/createTheme";
+import { ThemeProvider } from "@digiv3rse/ui/lib/styled-components";
+import { createPalette } from "@digiv3rse/ui/lib/theme/createPalette";
+import { createTheme } from "@digiv3rse/ui/lib/theme/createTheme";
 
 class App extends React.Component {
     private theme = createTheme(createPalette());
@@ -38,7 +38,7 @@ The library uses react-uid to generate some unique IDs for svg icon markup. For 
 
 Server:
 ```tsx
-import { UIDReset } from "@alethio/ui/lib/uid/UIDReset";
+import { UIDReset } from "@digiv3rse/ui/lib/uid/UIDReset";
 
 // ...
 ReactDOM.renderToString(<UIDReset><App /></UIDReset>));
@@ -46,7 +46,7 @@ ReactDOM.renderToString(<UIDReset><App /></UIDReset>));
 
 Client:
 ```tsx
-import { UIDReset } from "@alethio/ui/lib/uid/UIDReset";
+import { UIDReset } from "@digiv3rse/ui/lib/uid/UIDReset";
 
 //..
 ReactDOM.render(<UIDReset><App /></UIDReset>)
@@ -56,7 +56,7 @@ You can also import [UIDConsumer](./id/UIDConsumer.tsx) component for general us
 
 ## Usage
 
-Just import any component with `import { ... } from "@alethio/ui/lib/path/to/Component"`.
+Just import any component with `import { ... } from "@digiv3rse/ui/lib/path/to/Component"`.
 
 **NOTE**: Internal components are marked as `@internal` and/or are placed in `internal/` sub-folders. Never use them directly in production.
 
@@ -87,7 +87,7 @@ You can see the components in action [here](https://alethio.github.io/ui).
 The library uses a styled-component theme, which you can directly access in your styled components. If using TypeScript, we also provide e re-export of styled-components library (which is a peer dependency) that uses a typed [ITheme](./src/theme/ITheme.ts) interface.
 
 ```ts
-import * as styled from "@alethio/ui/lib/styled-components";
+import * as styled from "@digiv3rse/ui/lib/styled-components";
 
 const MyLinkComponent = styled.div`
     color: ${props => props.theme.colors.link};

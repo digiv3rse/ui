@@ -2,10 +2,10 @@ import { IPalette } from "./IPalette";
 import Color from "color";
 
 const WHITE_COLOR = Color("#FFFFFF");
-const RED_COLOR = Color("#F65555");
-const GREEN_COLOR = Color("#20D8A4");
-const BLUE_COLOR = Color("#356EFF");
-const ORANGE_COLOR = Color("#FF9F1C");
+const RED_COLOR = Color("#EE0000");
+const GREEN_COLOR = Color("#0FE857");
+const BLUE_COLOR = Color("#0F4BE0");
+const ORANGE_COLOR = Color("#F1A604");
 
 const DARK_COLOR = Color("#273656");
 const DUSK_COLOR = Color("#99A7C2");

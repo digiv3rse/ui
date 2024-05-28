@@ -4,7 +4,7 @@ import { Toolbar } from "./Toolbar";
 import { ToolbarItem } from "./ToolbarItem";
 import { ToolbarIconButton } from "./ToolbarIconButton";
 import { Filler } from "../Filler";
-import { AlethioIcon } from "../../icon/AlethioIcon";
+import { DiGiIcon } from "../../icon/DiGiIcon";
 import { LogoutIcon } from "../../icon/LogoutIcon";
 import { HelpIcon } from "../../icon/HelpIcon";
 import { observable } from "mobx";
@@ -28,7 +28,7 @@ storiesOf("layout/toolbar/" + Toolbar.displayName, module)
         <Container>
             <Toolbar>
                 <ToolbarItem title="Item 1">
-                    <ToolbarIconButton Icon={AlethioIcon} />
+                    <ToolbarIconButton Icon={DiGiIcon} />
                 </ToolbarItem>
                 <ToolbarItem title="Toggle button">
                     <ToolbarIconButton

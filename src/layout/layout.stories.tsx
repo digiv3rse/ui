@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 import { Toolbar } from "./toolbar/Toolbar";
 import { ToolbarItem } from "./toolbar/ToolbarItem";
 import { ToolbarIconButton } from "./toolbar/ToolbarIconButton";
-import { AlethioIcon } from "../icon/AlethioIcon";
+import { DiGiIcon } from "../icon/DiGiIcon";
 import { LogoutIcon } from "../icon/LogoutIcon";
 import { Filler } from "./Filler";
 import { VerticalBar } from "./VerticalBar";
@@ -42,7 +42,7 @@ storiesOf("layout/layout", module)
         <Container>
             <Toolbar>
                 <ToolbarItem title="Item 1">
-                    <ToolbarIconButton Icon={AlethioIcon} />
+                    <ToolbarIconButton Icon={DiGiIcon} />
                 </ToolbarItem>
                 <Filler />
                 <ToolbarItem>

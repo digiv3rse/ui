@@ -1,18 +1,18 @@
 import * as React from "react";
-import { AlethioIcon } from "../../icon/AlethioIcon";
+import { DiGiIcon } from "../../icon/DiGiIcon";
 import { HoverState } from "../../util/react/HoverState";
 import { IconButton } from "../../control/IconButton";
 
-export interface IAlethioIconButtonProps {
+export interface IDiGiIconButtonProps {
 }
 
-export class AlethioIconButton extends React.Component<IAlethioIconButtonProps> {
+export class DiGiIconButton extends React.Component<IDiGiIconButtonProps> {
     render() {
         return (
             <HoverState>
                 {(hover) =>
-                    <IconButton Icon={AlethioIcon} color={
-                        theme => hover ? theme.colors.toolbarAlethioIconHover : theme.colors.toolbarAlethioIcon
+                    <IconButton Icon={DiGiIcon} color={
+                        theme => hover ? theme.colors.toolbarDiGiIconHover : theme.colors.toolbarDiGiIcon
                     } />
                 }
             </HoverState>

@@ -58,8 +58,8 @@ export interface IThemeColors {
             activeHover: string;
         }
     };
-    toolbarAlethioIcon: string;
-    toolbarAlethioIconHover: string;
+    toolbarDiGiIcon: string;
+    toolbarDiGiIconHover: string;
 
     overlayBg: string;
     overlayBorder: string;

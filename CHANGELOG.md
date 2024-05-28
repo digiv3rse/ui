@@ -231,7 +231,7 @@
 
 # v1.0.0-beta.17
 
-- (AlethioReportsIcon) Fix regression introduced with beta.15 in `size` prop
+- (DiGiReportsIcon) Fix regression introduced with beta.15 in `size` prop
 
 # v1.0.0-beta.16
 
@@ -241,7 +241,7 @@
 
 ## Breaking Changes
 
-- AlethioReportsIcon was changed to another version in which the svg doesn't use mask, so the size and color are optional parameters now like in the other standard icons
+- DiGiReportsIcon was changed to another version in which the svg doesn't use mask, so the size and color are optional parameters now like in the other standard icons
 
 # v1.0.0-beta.5
 
